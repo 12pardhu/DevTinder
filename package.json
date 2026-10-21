@@ -1,0 +1,20 @@
+{
+  "name": "dev-tinder",
+  "version": "1.0.0",
+  "description": "This is an Sample Project",
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Pardha Saradhi Ganta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev" :" nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
